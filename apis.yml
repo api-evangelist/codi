@@ -1,7 +1,17 @@
 aid: codi
 name: Codi
-description: Codi is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Codi is a managed flexible office-space provider (office-as-a-service)
+  operating in San Francisco and New York City. Codi delivers fully-managed
+  private offices for teams, bundling furniture, cleaning and restocking,
+  tech and network management, vendor coordination, room booking, and an AI
+  office assistant into a single turnkey monthly subscription — positioned as
+  an alternative to traditional commercial leases, coworking, and short-term
+  space marketplaces such as Regus, Breather, and Peerspace. Codi was surfaced
+  in the API Evangelist network as an a16z portfolio company; as of this
+  profile it does not publish a public developer API, SDKs, or API
+  documentation — its digital surface is a members' web app and a hosted help
+  center.
 url: https://raw.githubusercontent.com/api-evangelist/codi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,57 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.codi.com/favicon.png
 tags:
 - Company
+- Office Space
+- Flexible Office
+- Office Management
+- Facilities Management
+- Workplace
+- Commercial Real Estate
+- Coworking
+- San Francisco
+- New York City
 apis: []
+common:
+- type: DomainSecurity
+  url: security/codi-domain-security.yml
+- type: Website
+  url: https://www.codi.com
+- type: Blog
+  url: https://www.codi.com/blog
+- type: HelpCenter
+  url: https://help.codi.com
+- type: Login
+  url: https://www.codi.com/sign-in
+- type: TermsOfService
+  url: https://www.codi.com/terms
+- type: PrivacyPolicy
+  url: https://www.codi.com/privacy
+- type: LLMsTxt
+  url: llms/codi-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
